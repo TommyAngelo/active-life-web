@@ -1,63 +1,139 @@
 <!DOCTYPE html>
 <html lang="sk">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ACTIVE LIFE s.r.o.</title>
-  <style>
-    body {font-family: Arial; margin:0; background:#f4f7f8;}
-    header {background:#1f6f5f; color:white; padding:40px; text-align:center;}
-    nav {background:#145347; text-align:center; padding:10px;}
-    nav a {color:white; margin:0 10px; text-decoration:none; font-weight:bold;}
-    section {background:white; margin:20px; padding:20px; border-radius:10px;}
-    h2 {color:#1f6f5f;}
-    footer {text-align:center; padding:20px; background:#145347; color:white;}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ACTIVE LIFE s.r.o.</title>
+
+<style>
+body {
+  margin:0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+header {
+  padding: 80px 20px;
+  text-align: center;
+  background: linear-gradient(135deg,#0f172a,#1f6f5f);
+}
+
+header h1 {
+  font-size: 42px;
+  margin: 0;
+}
+
+header p {
+  margin-top:10px;
+  color:#cbd5f5;
+}
+
+nav {
+  text-align:center;
+  padding:15px;
+  background:#020617;
+}
+
+nav a {
+  color:white;
+  margin:0 15px;
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.container {
+  max-width:900px;
+  margin:40px auto;
+  padding:20px;
+}
+
+.card {
+  background:#1e293b;
+  padding:25px;
+  margin-bottom:20px;
+  border-radius:12px;
+}
+
+h2 {
+  color:#22c55e;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  background:#020617;
+}
+</style>
+
 </head>
 <body>
 
 <header>
-  <h1>ACTIVE LIFE s.r.o.</h1>
-  <p>Zdravý životný štýl, šport, výživa a vzdelávanie</p>
+<h1>ACTIVE LIFE s.r.o.</h1>
+<p>Zdravý životný štýl • šport • výživa • vzdelávanie</p>
 </header>
 
 <nav>
-  <a href="#uvod">Úvod</a>
-  <a href="#onas">Kto sme</a>
-  <a href="#firma">O spoločnosti</a>
-  <a href="#seminar">Seminár</a>
-  <a href="#kontakt">Kontakt</a>
+<a href="#">Úvod</a>
+<a href="#">Kto sme</a>
+<a href="#">Spoločnosť</a>
+<a href="#">Seminár</a>
+<a href="#">Kontakt</a>
 </nav>
 
-<section id="uvod">
-  <h2>Úvod</h2>
-  <p>Tento web bol vytvorený ako súčasť maturitnej práce o založení s.r.o. a organizácii seminára.</p>
-</section>
+<div class="container">
 
-<section id="onas">
-  <h2>Kto sme</h2>
-  <p>Sme projekt zameraný na zdravý životný štýl, šport a výživu.</p>
-</section>
+<div class="card">
+<h2>Úvod</h2>
+<p>Tento web bol vytvorený ako súčasť maturitnej práce zameranej na založenie spoločnosti s ručením obmedzeným a organizáciu seminára o zdravom životnom štýle a športovej výžive.</p>
+<p>Cieľom projektu je prepojiť teoretické vedomosti z oblasti podnikania, športu a výživy s praktickou realizáciou vlastného podnikateľského zámeru. Web slúži ako prezentácia návrhu spoločnosti a jej aktivít.</p>
+</div>
 
-<section id="firma">
-  <h2>O spoločnosti</h2>
-  <p>ACTIVE LIFE s.r.o., Banská Bystrica</p>
-  <p>Konateľ: Michal Repiský</p>
-</section>
+<div class="card">
+<h2>Kto sme</h2>
+<p>ACTIVE LIFE s.r.o. je projektovo vytvorená spoločnosť zameraná na podporu zdravého životného štýlu, športu a správnej výživy. Našou víziou je motivovať ľudí k aktívnemu životu a zlepšeniu ich fyzického aj psychického zdravia.</p>
+<p>Zameriavame sa najmä na mladých ľudí, študentov a rekreačných športovcov, ktorým chceme prinášať hodnotné informácie, praktické rady a motiváciu do každodenného života.</p>
+</div>
 
-<section id="seminar">
-  <h2>Seminár</h2>
-  <p>Zdravé telo, silná myseľ</p>
-  <p>09:00 – 12:00</p>
-</section>
+<div class="card">
+<h2>O spoločnosti</h2>
+<p><strong>Obchodné meno:</strong> ACTIVE LIFE s.r.o.</p>
+<p><strong>Sídlo:</strong> Banská Bystrica</p>
+<p><strong>Právna forma:</strong> spoločnosť s ručením obmedzeným</p>
+<p><strong>Konateľ:</strong> Michal Repiský</p>
+<p><strong>Základné imanie:</strong> 5 000 €</p>
+<p>Hlavnou činnosťou spoločnosti je organizovanie seminárov, vzdelávacích podujatí a poskytovanie informácií v oblasti zdravého životného štýlu a športovej výživy.</p>
+</div>
 
-<section id="kontakt">
-  <h2>Kontakt</h2>
-  <p>Email: michal@example.com</p>
-</section>
+<div class="card">
+<h2>Seminár</h2>
+<p><strong>Názov:</strong> Zdravé telo, silná myseľ</p>
+<p><strong>Čas:</strong> 09:00 – 12:00</p>
+<p><strong>Miesto:</strong> Banská Bystrica</p>
+<p>Seminár je zameraný na význam pohybu, správne stravovanie a celkový zdravý životný štýl. Účastníci sa dozvedia, ako si nastaviť zdravé návyky, ako efektívne športovať a aký vplyv má výživa na výkon a regeneráciu.</p>
+
+<p><strong>Program seminára:</strong></p>
+<ul>
+<li>Úvod do problematiky zdravého životného štýlu</li>
+<li>Význam pohybu a športu</li>
+<li>Základy športovej výživy</li>
+<li>Praktické rady a diskusia</li>
+</ul>
+</div>
+
+<div class="card">
+<h2>Kontakt</h2>
+<p><strong>Meno:</strong> Michal Repiský</p>
+<p><strong>Email:</strong> michal@example.com</p>
+<p><strong>Telefón:</strong> +421 900 000 000</p>
+<p>V prípade záujmu o viac informácií nás neváhajte kontaktovať.</p>
+</div>
+
+</div>
 
 <footer>
-  <p>&copy; 2026 ACTIVE LIFE s.r.o.</p>
+<p>© 2026 ACTIVE LIFE s.r.o. | Školský projekt</p>
 </footer>
 
 </body>
